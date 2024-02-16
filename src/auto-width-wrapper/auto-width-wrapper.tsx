@@ -7,7 +7,7 @@ export interface AutoWidthWrapperProps
    * corrct width
    */
   renderTextArea: (onContentUpdate: (text: string) => void) => ReactNode;
-  defaultValue?: string;
+  value?: string;
   minRows?: number;
 }
 
@@ -16,13 +16,13 @@ export interface AutoWidthWrapperProps
  */
 export const AutoWidthWrapper = ({
   renderTextArea,
-  defaultValue = "",
+  value = "",
   className: _className,
   style: _style,
   ...rest
 }: AutoWidthWrapperProps) => {
   // Need to have text to hold the height
-  const [content, setContent] = useState(defaultValue);
+  const [content, setContent] = useState(value);
 
   return (
     <div className={styles.root} {...rest}>
@@ -41,11 +41,6 @@ export const AutoWidthWrapper = ({
         })}
       </div>
       {renderTextArea((text: string) => {
-        if (text.length === 0) {
-          // Need to hold one line in WidthHolder when input content is empty
-          setContent(defaultValue);
-          return;
-        }
         setContent(text);
       })}
     </div>

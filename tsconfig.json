@@ -21,5 +21,5 @@
     "declaration": true,
   },
   "include": ["src"],
-  "exclude": ["src/**/__docs__", "src/**/__test__"],
+  "exclude": ["src/**/__docs__", "src/**/__test__", "node_modules"],
 }

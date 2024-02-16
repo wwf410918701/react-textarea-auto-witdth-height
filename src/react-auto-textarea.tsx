@@ -4,10 +4,13 @@ import { Input } from "./input";
 import * as styles from "./react-auto-textarea.css";
 import clsx from "clsx";
 
-type ReactAutoTextAreaProps = Omit<
-  TextareaHTMLAttributes<HTMLTextAreaElement>,
-  "rows | cols"
->;
+interface ReactAutoTextAreaProps
+  extends Omit<
+    TextareaHTMLAttributes<HTMLTextAreaElement>,
+    "rows | cols | 'value"
+  > {
+  value?: string;
+}
 
 /**
  * A textarea that can automatically resize in both width and height.
@@ -20,17 +23,20 @@ export const ReactAutoTextArea = ({
   onChange,
   style,
   className,
+  value,
   ...rest
 }: ReactAutoTextAreaProps) => (
   <div style={style} className={clsx(className, styles.mockTextareaBorder)}>
     <AutoWidthWrapper
+      value={value}
       renderTextArea={(onContentUpdate) => (
         <Input
           {...rest}
+          value={value}
           onChange={(e: any) => {
             onContentUpdate(e.target.value);
             if (!onChange) return;
-            onChange(e.target.value);
+            onChange(e);
           }}
         />
       )}

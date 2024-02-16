@@ -13,4 +13,5 @@ export const fontStyle = style({
   fontVariant: "inherit",
   fontStyle: "inherit",
   wordBreak: "break-word",
+  background: "inherit",
 });

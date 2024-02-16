@@ -1,0 +1,741 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Auto textarea can correctly  > expand both vertically and horizontally 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div />
+            <br />
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content content content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content content content
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+          </textarea>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+    >
+      <div
+        class="auto-width-wrapper_root__13hejix0"
+      >
+        <div
+          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+        >
+          <div>
+            extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+          </div>
+        </div>
+        <textarea
+          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+        >
+          extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+        </textarea>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Auto textarea can correctly  > expand horizontally 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div />
+            <br />
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content content content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content content content
+          </textarea>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+    >
+      <div
+        class="auto-width-wrapper_root__13hejix0"
+      >
+        <div
+          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+        >
+          <div>
+            content content content
+          </div>
+        </div>
+        <textarea
+          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+        >
+          content content content
+        </textarea>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Auto textarea can correctly  > render 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div />
+            <br />
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+    >
+      <div
+        class="auto-width-wrapper_root__13hejix0"
+      >
+        <div
+          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+        >
+          <div />
+          <br />
+        </div>
+        <textarea
+          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Auto textarea can correctly  > render with short content that not required to span horizontally 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div />
+            <br />
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content
+          </textarea>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+    >
+      <div
+        class="auto-width-wrapper_root__13hejix0"
+      >
+        <div
+          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+        >
+          <div>
+            content
+          </div>
+        </div>
+        <textarea
+          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+        >
+          content
+        </textarea>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Auto textarea can correctly  > render with styles 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div />
+            <br />
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              content content content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            content content content
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+          </textarea>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        style="border: 1px solid black; display: inline-block; min-width: 50px; max-width: 400px; min-height: 30px; max-height: 120px; font-size: 40px;"
+      >
+        <div
+          class="auto-width-wrapper_root__13hejix0"
+        >
+          <div
+            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          >
+            <div>
+              extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+            </div>
+          </div>
+          <textarea
+            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          >
+            extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+          </textarea>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      style="border: 1px solid black; display: inline-block; min-width: 50px; max-width: 400px; min-height: 30px; max-height: 120px; font-size: 40px;"
+    >
+      <div
+        class="auto-width-wrapper_root__13hejix0"
+      >
+        <div
+          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+        >
+          <div>
+            extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+          </div>
+        </div>
+        <textarea
+          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+        >
+          extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
+        </textarea>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`When receive input, auto textarea can > trigger reset correctly 1`] = `
+<textarea
+  aria-label="trigger reset correctly"
+  class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+/>
+`;
+
+exports[`When receive input, auto textarea can > update horizontal and vertical size correctly 1`] = `
+<textarea
+  aria-label="update horizontal and vertical size correctly"
+  class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+/>
+`;
+
+exports[`When receive input, auto textarea can > update horizontal size correctly 1`] = `
+<textarea
+  aria-label="update horizontal size correctly"
+  class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+/>
+`;
