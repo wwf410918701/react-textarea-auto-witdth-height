@@ -15,7 +15,7 @@
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
     "test": "vitest run --coverage",
     "snapshot-update": "vitest -u",
-    "prepare": "husky install"
+    "prepare": "pnpm run build"
   },
   "keywords": [
     "autosize",
