@@ -6,39 +6,39 @@ exports[`Auto textarea can correctly  > expand both vertically and horizontally 
   "baseElement": <body>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div />
             <br />
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           />
         </div>
       </div>
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content
           </textarea>
@@ -47,20 +47,20 @@ exports[`Auto textarea can correctly  > expand both vertically and horizontally 
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content content content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content content content
           </textarea>
@@ -69,20 +69,20 @@ exports[`Auto textarea can correctly  > expand both vertically and horizontally 
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
           </textarea>
@@ -92,20 +92,20 @@ exports[`Auto textarea can correctly  > expand both vertically and horizontally 
   </body>,
   "container": <div>
     <div
-      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
     >
       <div
-        class="auto-width-wrapper_root__13hejix0"
+        class="auto-width-wrapper_root__1lsf3cd0"
       >
         <div
-          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
         >
           <div>
             extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
           </div>
         </div>
         <textarea
-          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
         >
           extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
         </textarea>
@@ -172,39 +172,39 @@ exports[`Auto textarea can correctly  > expand horizontally 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div />
             <br />
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           />
         </div>
       </div>
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content
           </textarea>
@@ -213,20 +213,20 @@ exports[`Auto textarea can correctly  > expand horizontally 1`] = `
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content content content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content content content
           </textarea>
@@ -236,20 +236,20 @@ exports[`Auto textarea can correctly  > expand horizontally 1`] = `
   </body>,
   "container": <div>
     <div
-      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
     >
       <div
-        class="auto-width-wrapper_root__13hejix0"
+        class="auto-width-wrapper_root__1lsf3cd0"
       >
         <div
-          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
         >
           <div>
             content content content
           </div>
         </div>
         <textarea
-          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
         >
           content content content
         </textarea>
@@ -316,19 +316,19 @@ exports[`Auto textarea can correctly  > render 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div />
             <br />
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           />
         </div>
       </div>
@@ -336,19 +336,19 @@ exports[`Auto textarea can correctly  > render 1`] = `
   </body>,
   "container": <div>
     <div
-      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
     >
       <div
-        class="auto-width-wrapper_root__13hejix0"
+        class="auto-width-wrapper_root__1lsf3cd0"
       >
         <div
-          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
         >
           <div />
           <br />
         </div>
         <textarea
-          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
         />
       </div>
     </div>
@@ -413,39 +413,39 @@ exports[`Auto textarea can correctly  > render with short content that not requi
   "baseElement": <body>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div />
             <br />
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           />
         </div>
       </div>
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content
           </textarea>
@@ -455,20 +455,20 @@ exports[`Auto textarea can correctly  > render with short content that not requi
   </body>,
   "container": <div>
     <div
-      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
     >
       <div
-        class="auto-width-wrapper_root__13hejix0"
+        class="auto-width-wrapper_root__1lsf3cd0"
       >
         <div
-          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
         >
           <div>
             content
           </div>
         </div>
         <textarea
-          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
         >
           content
         </textarea>
@@ -535,39 +535,39 @@ exports[`Auto textarea can correctly  > render with styles 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div />
             <br />
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           />
         </div>
       </div>
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content
           </textarea>
@@ -576,20 +576,20 @@ exports[`Auto textarea can correctly  > render with styles 1`] = `
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               content content content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             content content content
           </textarea>
@@ -598,20 +598,20 @@ exports[`Auto textarea can correctly  > render with styles 1`] = `
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
           </textarea>
@@ -620,21 +620,21 @@ exports[`Auto textarea can correctly  > render with styles 1`] = `
     </div>
     <div>
       <div
-        class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+        class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
         style="border: 1px solid black; display: inline-block; min-width: 50px; max-width: 400px; min-height: 30px; max-height: 120px; font-size: 40px;"
       >
         <div
-          class="auto-width-wrapper_root__13hejix0"
+          class="auto-width-wrapper_root__1lsf3cd0"
         >
           <div
-            class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+            class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
           >
             <div>
               extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
             </div>
           </div>
           <textarea
-            class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+            class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
           >
             extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
           </textarea>
@@ -644,21 +644,21 @@ exports[`Auto textarea can correctly  > render with styles 1`] = `
   </body>,
   "container": <div>
     <div
-      class="react-auto-textarea_mockTextareaBorder__1dljtf10"
+      class="react-auto-textarea_mockTextareaBorder__x1lf7x0"
       style="border: 1px solid black; display: inline-block; min-width: 50px; max-width: 400px; min-height: 30px; max-height: 120px; font-size: 40px;"
     >
       <div
-        class="auto-width-wrapper_root__13hejix0"
+        class="auto-width-wrapper_root__1lsf3cd0"
       >
         <div
-          class="auto-width-wrapper_widthHolder__13hejix1 shareStyles_fontStyle__1yvqzab0"
+          class="auto-width-wrapper_widthHolder__1lsf3cd1 shareStyles_fontStyle__zidya20"
         >
           <div>
             extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
           </div>
         </div>
         <textarea
-          class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+          class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
         >
           extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content
         </textarea>
@@ -722,20 +722,20 @@ exports[`Auto textarea can correctly  > render with styles 1`] = `
 exports[`When receive input, auto textarea can > trigger reset correctly 1`] = `
 <textarea
   aria-label="trigger reset correctly"
-  class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+  class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
 />
 `;
 
 exports[`When receive input, auto textarea can > update horizontal and vertical size correctly 1`] = `
 <textarea
   aria-label="update horizontal and vertical size correctly"
-  class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+  class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
 />
 `;
 
 exports[`When receive input, auto textarea can > update horizontal size correctly 1`] = `
 <textarea
   aria-label="update horizontal size correctly"
-  class="input_root__ms0i2s0 shareStyles_fontStyle__1yvqzab0"
+  class="input_root__ga6g4x0 shareStyles_fontStyle__zidya20"
 />
 `;
