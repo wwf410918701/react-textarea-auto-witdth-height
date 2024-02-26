@@ -1,19 +1,19 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { ReactAutoTextArea } from "./react-auto-textarea";
+import { AutoTextArea } from "./auto-textarea";
 import { useState } from "react";
 
-const meta: Meta<typeof ReactAutoTextArea> = {
+const meta: Meta<typeof AutoTextArea> = {
   title: "TextArea",
-  component: ReactAutoTextArea,
+  component: AutoTextArea,
 };
 
 export default meta;
 
-type Story = StoryObj<typeof ReactAutoTextArea>;
+type Story = StoryObj<typeof AutoTextArea>;
 
 export const Base: Story = {
   render: (args) => (
-    <ReactAutoTextArea
+    <AutoTextArea
       style={{
         border: "1px solid black",
         minWidth: "50px",
@@ -26,7 +26,7 @@ export const Base: Story = {
 
 export const WithHeightStyle: Story = {
   render: (args) => (
-    <ReactAutoTextArea
+    <AutoTextArea
       style={{
         border: "1px solid black",
         minWidth: "50px",
@@ -40,7 +40,7 @@ export const WithHeightStyle: Story = {
 
 export const CustomizedFontSize: Story = {
   render: (args) => (
-    <ReactAutoTextArea
+    <AutoTextArea
       style={{
         border: "1px solid black",
         display: "inline-block",
@@ -61,7 +61,7 @@ export const WithInitialContent: Story = {
       "Extra long content,  Extra long content,Extra long content,Extra long content,Extra long content,",
     );
     return (
-      <ReactAutoTextArea
+      <AutoTextArea
         style={{
           border: "1px solid black",
           minWidth: "50px",

@@ -9,8 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "react-auto-textarea",
-      fileName: (format) => `react-auto-textarea.${format}.js`,
+      name: "react-textarea-auto-witdth-height",
+      fileName: (format) => `react-textarea-auto-witdth-height.${format}.js`,
       formats: ["cjs", "es"],
     },
     rollupOptions: {

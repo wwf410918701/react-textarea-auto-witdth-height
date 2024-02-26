@@ -1,1 +1,1 @@
-export { ReactAutoTextArea } from "./react-auto-textarea";
+export { AutoTextArea } from "./auto-textarea";

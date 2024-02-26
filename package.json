@@ -1,9 +1,9 @@
 {
-  "name": "@wwf410918701/react-auto-textarea",
-  "version": "1.0.1",
+  "name": "react-textarea-auto-witdth-height",
+  "version": "0.1.0",
   "description": "Fully auto size react textarea component that can grow with content both in width and height",
-  "main": "dist/react-auto-textarea.cjs.js",
-  "module": "dist/react-auto-textarea.es.js",
+  "main": "dist/react-textarea-auto-witdth-height.cjs.js",
+  "module": "dist/react-textarea-auto-witdth-height.es.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
@@ -15,7 +15,11 @@
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
     "test": "vitest run --coverage",
     "snapshot-update": "vitest -u",
-    "prepare": "pnpm run build"
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwf410918701/react-textarea-auto-witdth-height.git"
   },
   "keywords": [
     "autosize",
@@ -25,9 +29,6 @@
     "react-component",
     "textarea"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@wwf410918701"
-  },
   "files": [
     "/dist"
   ],

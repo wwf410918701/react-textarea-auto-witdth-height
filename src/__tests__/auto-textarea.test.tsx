@@ -1,39 +1,34 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
-import { ReactAutoTextArea } from "..";
+import { AutoTextArea } from "..";
 
 describe("Auto textarea can correctly ", () => {
   it("render", () => {
-    const result = render(ReactAutoTextArea({}));
+    const result = render(<AutoTextArea />);
     expect(result).toMatchSnapshot();
   });
 
   it("render with short content that not required to span horizontally", () => {
-    const result = render(ReactAutoTextArea({ value: "content" }));
+    const result = render(<AutoTextArea value="content" />);
     expect(result).toMatchSnapshot();
   });
 
   it("expand horizontally", () => {
-    const result = render(
-      ReactAutoTextArea({ value: "content content content" }),
-    );
+    const result = render(<AutoTextArea value="content content content" />);
     expect(result).toMatchSnapshot();
   });
 
   it("expand both vertically and horizontally", () => {
     const result = render(
-      ReactAutoTextArea({
-        value:
-          "extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content",
-      }),
+      <AutoTextArea value="extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content" />,
     );
     expect(result).toMatchSnapshot();
   });
 
   it("render with styles", () => {
     const result = render(
-      ReactAutoTextArea({
-        style: {
+      <AutoTextArea
+        style={{
           border: "1px solid black",
           display: "inline-block",
           minWidth: "50px",
@@ -41,10 +36,9 @@ describe("Auto textarea can correctly ", () => {
           minHeight: "30px",
           maxHeight: "120px",
           fontSize: "40px",
-        },
-        value:
-          "extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content",
-      }),
+        }}
+        value="extra long contentextra long contentextra long contentextra long contentextra long contentextra long contentextra long content"
+      />,
     );
     expect(result).toMatchSnapshot();
   });
@@ -52,12 +46,7 @@ describe("Auto textarea can correctly ", () => {
 
 const setup = (label?: string, onChange?: (e: any) => string) => {
   const ariaLabel = label ?? "auto-text-area";
-  render(
-    ReactAutoTextArea({
-      "aria-label": ariaLabel,
-      onChange,
-    }),
-  );
+  render(<AutoTextArea aria-label={ariaLabel} onChange={onChange} />);
   const input: HTMLTextAreaElement = screen.getByLabelText(ariaLabel);
   return input;
 };

@@ -1,20 +1,20 @@
-# react-auto-textarea
+# react-textarea-auto-witdth-height
 
 An easy to use replacement for textarea that can automatically resizes both horizontally and vertically as content changes.
 
 ```typescript
-  import { ReactAutoTextArea } from 'react-auto-textarea'
+  import { AutoTextArea } from 'react-textarea-auto-witdth-height'
 
   const somePlace = () => (
     <div>
-      <ReactAutoTextArea/>
+      <AutoTextArea/>
     </div>
   )
 ```
 
 ## Install
 
-`npm install react-auto-textarea`
+`npm i react-textarea-auto-witdth-height`
 
 ## Props
 
