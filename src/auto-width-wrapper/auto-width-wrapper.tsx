@@ -1,4 +1,4 @@
-import { Fragment, ReactNode, useState } from "react";
+import * as React from "react";
 import * as styles from "./auto-width-wrapper.css";
 
 export interface AutoWidthWrapperProps
@@ -6,7 +6,7 @@ export interface AutoWidthWrapperProps
   /** Update content when use input, to ensure width holder hold the
    * corrct width
    */
-  renderTextArea: (onContentUpdate: (text: string) => void) => ReactNode;
+  renderTextArea: (onContentUpdate: (text: string) => void) => React.ReactNode;
   value?: string;
   minRows?: number;
 }
@@ -22,7 +22,7 @@ export const AutoWidthWrapper = ({
   ...rest
 }: AutoWidthWrapperProps) => {
   // Need to have text to hold the height
-  const [content, setContent] = useState(value);
+  const [content, setContent] = React.useState(value);
 
   return (
     <div className={styles.root} {...rest}>
@@ -31,10 +31,10 @@ export const AutoWidthWrapper = ({
         {content.split("\n").map(function (item, index) {
           if (item.length === 0) {
             return (
-              <Fragment key={`${index}-${item}`}>
+              <React.Fragment key={`${index}-${item}`}>
                 <div>{item}</div>
                 <br />
-              </Fragment>
+              </React.Fragment>
             );
           }
           return <div key={`${index}-item`}>{item}</div>;

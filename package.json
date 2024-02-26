@@ -1,6 +1,6 @@
 {
   "name": "react-textarea-auto-witdth-height",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fully auto size react textarea component that can grow with content both in width and height",
   "main": "dist/react-textarea-auto-witdth-height.cjs.js",
   "module": "dist/react-textarea-auto-witdth-height.es.js",
@@ -76,8 +76,7 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "pnpm format",
-      "pnpm lint",
-      "pnpm test"
+      "pnpm lint"
     ]
   }
 }
