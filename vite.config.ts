@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
 import { peerDependencies } from "./package.json";
 import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
+import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
   build: {
@@ -19,10 +20,10 @@ export default defineConfig({
     sourcemap: true,
     emptyOutDir: true,
     outDir: "dist",
-    cssCodeSplit: true,
   },
   plugins: [
     vanillaExtractPlugin(),
+    cssInjectedByJsPlugin(),
     dts({
       exclude: ["**/__tests__/**", "**/*.stories.*", "**/*.css.*"],
     }),
