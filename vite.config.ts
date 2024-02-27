@@ -19,6 +19,7 @@ export default defineConfig({
     sourcemap: true,
     emptyOutDir: true,
     outDir: "dist",
+    cssCodeSplit: true,
   },
   plugins: [
     vanillaExtractPlugin(),
