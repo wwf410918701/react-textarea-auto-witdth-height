@@ -12,6 +12,10 @@ An easy to use replacement for textarea that can automatically resizes both hori
   )
 ```
 
+## Demo
+
+https://react-textarea-auto-witdth-height-8j96.vercel.app/
+
 ## Install
 
 `npm i react-textarea-auto-witdth-height`
