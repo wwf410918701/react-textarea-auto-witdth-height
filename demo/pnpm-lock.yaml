@@ -17,6 +17,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-textarea-auto-witdth-height:
+    specifier: ^0.1.4
+    version: 0.1.4(react@18.2.0)
 
 devDependencies:
   '@types/react':
@@ -1874,6 +1877,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-textarea-auto-witdth-height@0.1.4(react@18.2.0):
+    resolution: {integrity: sha512-qrWkjk/R0gcmDyENyTVhWC7H/CyW0fzL1JuN724Aqfcq5gMHes1LRQNeIATgy1dOw7VNhD3gu6U9jlTB7YKEaA==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react@18.2.0:

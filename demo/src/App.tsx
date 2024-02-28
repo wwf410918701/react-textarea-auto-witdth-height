@@ -1,4 +1,4 @@
-import { AutoTextArea } from "../../src";
+import { AutoTextArea } from "react-textarea-auto-witdth-height";
 import * as styles from "./app.css";
 
 const DemoCases = [
