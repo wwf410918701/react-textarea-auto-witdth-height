@@ -18,8 +18,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-textarea-auto-witdth-height:
-    specifier: ^0.1.6
-    version: 0.1.6(react@18.2.0)
+    specifier: ^0.1.7
+    version: 0.1.7(react@18.2.0)
 
 devDependencies:
   '@types/react':
@@ -1879,8 +1879,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-textarea-auto-witdth-height@0.1.6(react@18.2.0):
-    resolution: {integrity: sha512-+ISrKqwBGG2Htu01ImqePIRbCj9ATyjmDhPlvMpoEU61BQnRcl0Rc2fjWe5KsMhgrpukOb1VqSpv3tSgHj8D4A==}
+  /react-textarea-auto-witdth-height@0.1.7(react@18.2.0):
+    resolution: {integrity: sha512-PgGtbfCp9kFOa+y12PfBkp+Q+SVN00l495qaLSgddOqXeHbYR3JcgzJKVmptsy1jkGnRE9kU1r2Vlv/7pWpZDQ==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
