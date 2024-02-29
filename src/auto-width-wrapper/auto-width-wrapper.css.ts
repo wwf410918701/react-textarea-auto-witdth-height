@@ -12,5 +12,6 @@ export const widthHolder = style([
   fontStyle,
   {
     visibility: "hidden",
+    whiteSpace: "pre-wrap",
   },
 ]);
