@@ -14,8 +14,8 @@ jobs:
           name: install dependences
           command: pnpm install
       - run:
-          name: check lint
-          command: npm run lint
+          name: run code lint
+          command: pnpm run lint
       - run:
           name: run test
           command: pnpm test
