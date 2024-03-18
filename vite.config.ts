@@ -32,7 +32,7 @@ export default defineConfig({
     environment: "happy-dom",
     coverage: {
       provider: "v8",
-      exclude: ["**/*.css.*", "**/*.stories.tsx", ".storybook"],
+      exclude: ["**/*.css.*", "**/*.stories.tsx", ".storybook", "demo"],
     },
   },
   resolve: {
