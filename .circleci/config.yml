@@ -12,13 +12,13 @@ jobs:
           command: rm -rf node_modules/
       - run:
           name: install dependences
-          command: npm install
+          command: pnpm install
       - run:
           name: run code lint
-          command: npm run lint
+          command: pnpm run lint
       - run:
           name: run test
-          command: npm test
+          command: pnpm test
       - codecov/upload:
           file: coverage/*.json
           flags: unit-test
