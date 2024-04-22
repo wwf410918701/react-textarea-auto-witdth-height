@@ -18,7 +18,7 @@ jobs:
           command: npm run lint
       - run:
           name: run test
-          command: npm test
+          command: npm test:unit
       - codecov/upload:
           file: coverage/*.json
           flags: unit-test
