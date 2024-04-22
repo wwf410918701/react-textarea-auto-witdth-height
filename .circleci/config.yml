@@ -19,4 +19,4 @@ jobs:
       - run:
           name: run test
           command: npm run test
-      - codecov/upload:
+      - codecov/upload
