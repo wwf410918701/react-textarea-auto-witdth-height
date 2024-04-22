@@ -1,6 +1,6 @@
 version: "2.1"
 orbs:
-  codecov: codecov/codecov@4.1.0
+  codecov: codecov/codecov@4.0.1
 jobs:
   build:
     docker:
@@ -19,4 +19,6 @@ jobs:
       - run:
           name: run test
           command: npm run test
-      - codecov/upload
+      - codecov/upload:
+          file: coverage/*.json
+          flags: unit-test
