@@ -1,0 +1,31 @@
+name: Quality check
+
+on:
+  push:
+    branches:
+      - "add-release-workflow"
+
+jobs:
+  quality-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.9.0
+          registry-url: https://npm.pkg.github.com/
+          scope: "@wwf410918701"
+      - run: rm -rf node_modules/
+      - run: npm install
+      - run: npm run lint
+      - run: npm run test
+      - run: npm run build
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: wwf410918701/react-textarea-auto-witdth-height
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release
