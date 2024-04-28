@@ -1,5 +1,7 @@
 # react-textarea-auto-witdth-height
 
+[![codecov](https://codecov.io/gh/wwf410918701/react-textarea-auto-witdth-height/graph/badge.svg?token=Q941RAZ85H)](https://codecov.io/gh/wwf410918701/react-textarea-auto-witdth-height) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An easy to use replacement for textarea that can automatically resizes both horizontally and vertically as content changes.
 
 ```typescript
