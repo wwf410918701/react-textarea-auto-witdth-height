@@ -30,6 +30,7 @@
     "*.stories.tsx",
     "**/__test__/**",
     "*.test.*",
+    "demo",
   ],
   "rules": {
     "@typescript-eslint/no-explicit-any": "warn",
