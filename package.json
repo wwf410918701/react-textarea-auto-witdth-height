@@ -21,6 +21,11 @@
     "type": "git",
     "url": "git+https://github.com/wwf410918701/react-textarea-auto-witdth-height.git"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "keywords": [
     "autosize",
     "grow",
@@ -38,6 +43,7 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
     "@storybook/addon-essentials": "^7.6.13",
     "@storybook/addon-interactions": "^7.6.13",
     "@storybook/addon-links": "^7.6.13",
@@ -56,6 +62,7 @@
     "@vitest/coverage-v8": "^1.2.2",
     "clsx": "^2.1.0",
     "commitizen": "^4.3.0",
+    "commitlint": "^19.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
