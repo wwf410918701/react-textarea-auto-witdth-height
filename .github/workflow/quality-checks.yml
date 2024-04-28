@@ -3,7 +3,7 @@ name: Quality check
 on:
   push:
     branches:
-      - *
+      - "*"
 
 jobs:
   publish-gpr:
