@@ -1,4 +1,4 @@
-name: Quality check
+name: Release package
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "add-release-workflow"
 
 jobs:
-  quality-checks:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
