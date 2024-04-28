@@ -3,7 +3,7 @@ name: Release package
 on:
   push:
     branches:
-      - "add-release-workflow"
+      - add-release-workflow
 
 jobs:
   release:
