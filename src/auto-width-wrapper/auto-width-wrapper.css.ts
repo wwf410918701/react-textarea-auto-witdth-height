@@ -13,5 +13,7 @@ export const widthHolder = style([
   {
     visibility: "hidden",
     whiteSpace: "pre-wrap",
+    padding: 0,
+    margin: 0,
   },
 ]);
