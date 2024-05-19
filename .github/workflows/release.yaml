@@ -1,11 +1,16 @@
 name: Release package
 
 on:
-  push: { "branches": ["main", "next"] }
+  push: { "branches": ["main"] }
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     steps:
       - name: "Generate token"
         id: generate_token
@@ -41,3 +46,4 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
