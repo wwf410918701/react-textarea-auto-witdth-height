@@ -15,5 +15,6 @@ export const widthHolder = style([
     whiteSpace: "pre-wrap",
     padding: 0,
     margin: 0,
+    boxSizing: "inherit",
   },
 ]);
