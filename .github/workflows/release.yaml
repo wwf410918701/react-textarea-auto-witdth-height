@@ -1,0 +1,49 @@
+name: Release package
+
+on:
+  push: { "branches": ["main"] }
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
+    steps:
+      - name: "Generate token"
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.APP_ADMIN_ID }}
+          private_key: ${{ secrets.APP_ADMIN_KEY }}
+      - name: "Check out the code"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ steps.generate_token.outputs.token }}
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.9.0
+          registry-url: https://npm.pkg.github.com/
+          scope: "@wwf410918701"
+      - run: rm -rf node_modules/
+      - run: pnpm install
+      - run: pnpm run lint
+      - run: pnpm run test
+      - run: pnpm run build
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: wwf410918701/react-textarea-auto-witdth-height
+      - name: Release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
