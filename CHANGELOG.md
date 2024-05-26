@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wwf410918701/react-textarea-auto-witdth-height/compare/v1.0.0...v1.0.1) (2024-05-26)
+
+
+### Bug Fixes
+
+* customized box sizing cause incorrect size ([71dd478](https://github.com/wwf410918701/react-textarea-auto-witdth-height/commit/71dd478f998aac89fc17192c5189dab5f524f4b2))
+
 # 1.0.0 (2024-05-26)
 
 
