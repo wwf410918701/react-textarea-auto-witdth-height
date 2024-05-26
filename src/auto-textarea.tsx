@@ -29,7 +29,7 @@ export const AutoTextArea = forwardRef<HTMLTextAreaElement, AutoTextAreaProps>(
             {...rest}
             ref={ref}
             value={value}
-            onChange={(e: any) => {
+            onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => {
               onContentUpdate(e.target.value);
               if (!onChange) return;
               onChange(e);

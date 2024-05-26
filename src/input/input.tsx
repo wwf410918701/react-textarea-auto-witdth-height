@@ -1,7 +1,9 @@
 import { HTMLAttributes, forwardRef } from "react";
 import * as styles from "./input.css";
 
-interface Props extends HTMLAttributes<HTMLTextAreaElement> {}
+interface Props extends HTMLAttributes<HTMLTextAreaElement> {
+  value: string | undefined;
+}
 
 /**
  * Text area input that can fill the space that it is in
