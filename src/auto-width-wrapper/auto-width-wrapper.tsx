@@ -1,4 +1,4 @@
-import * as React from "react";
+import { Fragment, useState } from "react";
 import * as styles from "./auto-width-wrapper.css";
 
 export interface AutoWidthWrapperProps
@@ -22,7 +22,13 @@ export const AutoWidthWrapper = ({
   ...rest
 }: AutoWidthWrapperProps) => {
   // Need to have text to hold the height
-  const [content, setContent] = React.useState(value);
+  const [content, setContent] = useState(value);
+  const [preValueProp, setPreValueProp] = useState(value);
+
+  if (preValueProp !== value) {
+    setPreValueProp(value);
+    setContent(value);
+  }
 
   return (
     <div className={styles.root} {...rest}>
@@ -31,10 +37,10 @@ export const AutoWidthWrapper = ({
         {content.split("\n").map(function (item, index) {
           if (item.length === 0) {
             return (
-              <React.Fragment key={`${index}-${item}`}>
+              <Fragment key={`${index}-${item}`}>
                 <div>{item}</div>
                 <br />
-              </React.Fragment>
+              </Fragment>
             );
           }
           return <div key={`${index}-item`}>{item}</div>;

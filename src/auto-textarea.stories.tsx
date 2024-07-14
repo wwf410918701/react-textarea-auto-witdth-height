@@ -79,3 +79,35 @@ export const WithInitialContent: Story = {
     );
   },
 };
+
+export const ManuallyUpdateValue: Story = {
+  render: (args) => {
+    const [value, setValue] = useState("Old value");
+    return (
+      <div>
+        <AutoTextArea
+          style={{
+            border: "1px solid black",
+            display: "inline-block",
+            minWidth: "50px",
+            maxWidth: "400px",
+            minHeight: "30px",
+            maxHeight: "120px",
+            fontSize: "40px",
+          }}
+          value={value}
+          {...args}
+        />
+        <button
+          onClick={() => {
+            setValue(
+              "Updatd value, and guess what, it is extra long, extra long, extra long, extra long, extra long, extra long, extra long, extra long, extra long,!",
+            );
+          }}
+        >
+          Update text
+        </button>
+      </div>
+    );
+  },
+};

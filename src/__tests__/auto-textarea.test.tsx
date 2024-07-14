@@ -42,6 +42,37 @@ describe("Auto textarea can correctly ", () => {
     );
     expect(result).toMatchSnapshot();
   });
+
+  it("update its state after passed in value prop changed", () => {
+    const { rerender } = render(
+      <AutoTextArea
+        style={{
+          border: "1px solid black",
+          display: "inline-block",
+          minWidth: "50px",
+          maxWidth: "400px",
+          minHeight: "30px",
+          maxHeight: "120px",
+          fontSize: "40px",
+        }}
+        value={"Initial value"}
+      />,
+    );
+    rerender(
+      <AutoTextArea
+        style={{
+          border: "1px solid black",
+          display: "inline-block",
+          minWidth: "50px",
+          maxWidth: "400px",
+          minHeight: "30px",
+          maxHeight: "120px",
+          fontSize: "40px",
+        }}
+        value={"Updated value"}
+      />,
+    );
+  });
 });
 
 const setup = (label?: string, onChange?: (e: any) => string) => {
